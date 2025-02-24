@@ -1,0 +1,30 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.7
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.116:3000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.5s (1347 modules)
+ GET / 200 in 4079ms
+ ✓ Compiled in 630ms (673 modules)
+ ○ Compiling /generate ...
+ ✓ Compiled /generate in 1268ms (1460 modules)
+ GET /generate 200 in 1429ms
+ GET /generate 200 in 14ms
+ GET / 200 in 304ms
+ GET /generate 200 in 19ms
+ ✓ Compiled in 1007ms (1451 modules)
+ GET /generate 200 in 154ms
+ ✓ Compiled in 645ms (1451 modules)
+ GET /generate 200 in 133ms
+ ✓ Compiled in 1601ms (1454 modules)
+ GET /generate 200 in 137ms
+[?25h
