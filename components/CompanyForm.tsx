@@ -146,7 +146,7 @@ export function CompanyForm({ isOpen, onClose, onSubmit }: CompanyFormProps) {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Decision Maker's Name
+                      Decision Maker&apos;s Name
                     </label>
                     <input
                       type="text"
