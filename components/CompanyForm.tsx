@@ -189,6 +189,10 @@ export function CompanyForm({ isOpen, onClose, onSubmit }: CompanyFormProps) {
                     />
                   </div>
 
+                  <p className="text-sm text-gray-500">
+                    We'll analyze the website to create a personalized email.
+                  </p>
+
                   <div className="mt-6">
                     <motion.button
                       whileHover={{ scale: 1.02 }}

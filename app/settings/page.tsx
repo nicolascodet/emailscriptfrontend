@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Save, Globe, FileText } from 'lucide-react'
+import { Save, Globe } from 'lucide-react'
 
 interface CompanySettings {
   name: string
@@ -118,7 +118,6 @@ export default function Settings() {
                   value={settings.website}
                   onChange={(e) => {
                     let url = e.target.value;
-                    // Add https:// if no protocol is specified
                     if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
                       url = 'https://' + url;
                     }
@@ -129,7 +128,7 @@ export default function Settings() {
                 />
                 <button
                   type="button"
-                  onClick={() => handleSubmit({ preventDefault: () => {} } as any)}
+                  onClick={() => handleSubmit({ preventDefault: () => {} } as React.FormEvent)}
                   className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
                 >
                   <Globe className="w-4 h-4" />
@@ -174,7 +173,7 @@ export default function Settings() {
               onChange={(e) => setSettings({ ...settings, achievements: e.target.value })}
               className="w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
               rows={3}
-              placeholder="List your company's key achievements and statistics"
+              placeholder="List your company&apos;s key achievements and statistics"
             />
           </div>
 

@@ -87,7 +87,7 @@ export default function Generate() {
         >
           <h1 className="text-4xl font-bold mb-4">Generate Your Email</h1>
           <p className="text-xl text-gray-600 mb-8">
-            Enter a website and we'll create a personalized email using AI.
+            Enter your target company&apos;s website and we&apos;ll generate a personalized email for you.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
