@@ -47,7 +47,7 @@ export default function Generate() {
         }
       }
 
-      const response = await fetch('http://localhost:8000/generate-email', {
+      const response = await fetch('https://emailscraper-backend-919074092411.us-west1.run.app/generate-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

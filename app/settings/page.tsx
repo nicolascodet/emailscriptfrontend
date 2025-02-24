@@ -42,7 +42,7 @@ export default function Settings() {
       
       // Optional: Analyze website if provided
       if (settings.website) {
-        const response = await fetch('http://localhost:8000/analyze-company', {
+        const response = await fetch('https://emailscraper-backend-919074092411.us-west1.run.app/analyze-company', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
