@@ -190,8 +190,14 @@ export function CompanyForm({ isOpen, onClose, onSubmit }: CompanyFormProps) {
                   </div>
 
                   <p className="text-sm text-gray-500">
-                    We'll analyze the website to create a personalized email.
+                    We&apos;ll analyze the website to create a personalized email.
                   </p>
+
+                  <div className="mt-4">
+                    <label className="block text-sm font-medium text-gray-700">
+                      We&apos;ll need a few more details
+                    </label>
+                  </div>
 
                   <div className="mt-6">
                     <motion.button
